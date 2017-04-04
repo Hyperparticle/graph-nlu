@@ -32,6 +32,8 @@ dependencies {
 
     // Natural Language Processing
     compile "edu.stanford.nlp:stanford-corenlp:3.7.0"
+    compile group: 'edu.stanford.nlp', name: 'stanford-corenlp', version: '3.7.0'
+    compile group: 'edu.stanford.nlp', name: 'stanford-corenlp', version: '3.7.0', classifier: 'models'
 
     // Logging
     compile "org.slf4j:slf4j-simple:1.7.25"
