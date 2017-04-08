@@ -16,11 +16,12 @@ import java.util.*
 fun main(args: Array<String>) {
 // creates a StanfordCoreNLP object, with POS tagging, lemmatization, NER, parsing, and coreference resolution
     val props = Properties()
-    props.put("annotators", "tokenize, ssplit, pos, lemma, ner, parse, dcoref")
+//    props.put("annotators", "tokenize, ssplit, pos, lemma, ner, parse, dcoref")
+    props.put("annotators", "tokenize, ssplit, pos")
     val pipeline = StanfordCoreNLP(props)
 
     // read some text from the file..
-    val inputFile = File("src/main/resources/sample-content.txt")
+    val inputFile = File("src/main/resources/qa1_single-supporting-fact_train.txt")
     val text = inputFile.readText()
 
     // create an empty Annotation just with the given text
@@ -42,9 +43,11 @@ fun main(args: Array<String>) {
             // this is the POS tag of the token
             val pos = token.get(PartOfSpeechAnnotation::class.java)
             // this is the NER label of the token
-            val ne = token.get(NamedEntityTagAnnotation::class.java)
+//            val ne = token.get(NamedEntityTagAnnotation::class.java)
 
-            println("word: $word pos: $pos ne:$ne")
+//            println("word: $word pos: $pos ne:$ne")
+
+            println("word: $word pos: $pos")
         }
 
         // this is the parse tree of the current sentence
@@ -54,6 +57,8 @@ fun main(args: Array<String>) {
         // this is the Stanford dependency graph of the current sentence
         val dependencies = sentence.get(CollapsedCCProcessedDependenciesAnnotation::class.java)
         println("dependency graph:\n" + dependencies)
+
+        return
     }
 
     // This is the coreference link graph

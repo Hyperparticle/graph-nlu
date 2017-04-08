@@ -215,3 +215,5 @@ local.properties
 .recommenders/
 
 ### Project Specific
+
+.ipynb_checkpoints
