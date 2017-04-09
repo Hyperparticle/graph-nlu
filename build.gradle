@@ -31,7 +31,6 @@ dependencies {
     compile "org.jetbrains.kotlin:kotlin-stdlib-jre8:$kotlin_version"
 
     // Natural Language Processing
-    compile "edu.stanford.nlp:stanford-corenlp:3.7.0"
     compile group: 'edu.stanford.nlp', name: 'stanford-corenlp', version: '3.7.0'
     compile group: 'edu.stanford.nlp', name: 'stanford-corenlp', version: '3.7.0', classifier: 'models'
 
