@@ -14,7 +14,7 @@ Get an introduction to this project by viewing the supplied Jupyter notebooks on
 - [Python](https://www.python.org/downloads/) (3.5+)
 - [Neo4j](https://neo4j.com/download/) (3.1+)
 
-1. Install the python packages in `requirements.txt`.
+2. Install the python packages in `requirements.txt`.
 
 ```
 pip install -r ./requirements.txt
