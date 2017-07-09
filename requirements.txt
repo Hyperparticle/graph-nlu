@@ -1,8 +1,8 @@
-numpy
-pandas
-nltk
-scipy
-scikit-learn
-neo4j-driver
 ipython
 jupyter
+neo4j-driver
+numpy
+nltk
+pandas
+scipy
+scikit-learn
