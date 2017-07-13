@@ -6,7 +6,7 @@ This project is in its research phase, hence all code in this repository is expl
 
 ## Getting Started
 
-A talk about this project [can be viewed here](https://www.youtube.com/watch?v=mTCqQ2e08Q8), and slides are supplied [in the docs directory](docs/Graph NLU- Natural Language Understanding with Python and Neo4j.pdf).
+A talk about this project [can be viewed here](https://www.youtube.com/watch?v=mTCqQ2e08Q8), and slides are supplied [in the docs directory](docs/Graph%20NLU-%20Natural%20Language%20Understanding%20with%20Python%20and%20Neo4j.pdf).
 
 Get an introduction to this project by viewing the supplied Jupyter notebooks online under the `notebooks` directory. See [dynamic_memory_1](notebooks/dynamic_memory_1.ipynb) on GitHub to get started.
 
