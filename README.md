@@ -16,7 +16,7 @@ Get an introduction to this project by viewing the supplied Jupyter notebooks on
 
 1. Make sure these are on your system:
 - [Python](https://www.python.org/downloads/) (3.5+)
-- [Neo4j](https://neo4j.com/download/) (3.1+)
+- [Neo4j](https://neo4j.com/download/community-edition/) (3.1+)
 
 2. Install the python packages in `requirements.txt` if you don't have them already.
 
