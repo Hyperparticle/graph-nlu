@@ -1,6 +1,6 @@
 # Graph NLU
 
-![Preview Image](/notebooks/screenshots/global-and-local-list.png)
+![Preview Image](/notebooks/screenshots/qa2-multiple-list.png)
 
 ## Motivation :bar_chart:
 
