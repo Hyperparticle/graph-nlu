@@ -1,6 +1,6 @@
 # Graph NLU
 
-![Preview Image](/notebooks/screenshots/qa2-multiple-list.png)
+[![Preview Image](/notebooks/screenshots/qa2-multiple-list.png)](notebooks/dynamic_memory_1.ipynb)
 
 ## Motivation :bar_chart:
 
@@ -35,10 +35,11 @@ The Python code uses the Neo4j graph database to store and query natural languag
 ### Prerequisites
 
 1. Make sure these are on your system:
+
 - [Python](https://www.python.org/downloads/) (3.5+)
 - [Neo4j](https://neo4j.com/download/community-edition/) (3.1+)
 
-1. Install the python packages in `requirements.txt` if you don't have them already.
+2. Install the python packages in `requirements.txt` if you don't have them already.
 
 ```bash
 pip install -r ./requirements.txt
@@ -46,20 +47,20 @@ pip install -r ./requirements.txt
 
 ### Running Jupyter Notebooks
 
-1. Clone the repository.
+3. Clone the repository.
 
 ```bash
 git clone https://github.com/Hyperparticle/graph-nlu.git
 cd ./graph-nlu/notebooks
 ```
 
-1. Run the iPython notebooks with Jupyter.
+4. Run the iPython notebooks with Jupyter.
 
 ```bash
 jupyter notebook
 ```
 
-1. Get an introduction to the project with [dynamic_memory_1](notebooks/dynamic_memory_1.ipynb).
+5. Get an introduction to the project with [dynamic_memory_1](notebooks/dynamic_memory_1.ipynb).
 
 ## Contributing :mega:
 
